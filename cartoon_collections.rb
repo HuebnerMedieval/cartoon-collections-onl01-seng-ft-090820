@@ -9,15 +9,14 @@ end
 def summon_captain_planet(planateer_calls)
   planateer_calls.collect do |call|
     call_array = call.split("")
-    #binding.pry
     call_array[0] = call_array[0].upcase
     call_array.push("!")
     call = call_array.join
   end
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array_of_calls)
+  array_of_calls.
 end
 
 def find_the_cheese# code an argument here

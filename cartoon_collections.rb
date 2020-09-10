@@ -1,3 +1,5 @@
+require "pry"
+
 def roll_call_dwarves(dwarf_array)
   dwarf_array.each_with_index do |dwarf, index|
     puts "#{index + 1}. #{dwarf}"
@@ -7,6 +9,7 @@ end
 def summon_captain_planet(planateer_calls)
   planateer_calls.collect do |call|
     call_array = call.split
+    binding.pry
     call_array[0] = call_array[0].upcase
     call_array.push("!")
     call = call_array.join

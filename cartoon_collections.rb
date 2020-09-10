@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planateer_calls)
   planateer_calls.collect do |call|
-    call_array = call.split
+    call_array = call.split("")
     binding.pry
     call_array[0] = call_array[0].upcase
     call_array.push("!")

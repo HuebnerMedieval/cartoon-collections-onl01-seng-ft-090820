@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarf_array)
   dwarf_array.each do |dwarf|
-    puts dwarf
+    puts "#{dwarf}"
   end
 end
 

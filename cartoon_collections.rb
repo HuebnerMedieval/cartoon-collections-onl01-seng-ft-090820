@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planateer_calls)
   planateer_calls.collect do |call|
     call[0].upcase
-    call.push(!)
+    call.push("!")
   end
 end
 
